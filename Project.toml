@@ -1,0 +1,8 @@
+name = "MotorParkingRand"
+uuid = "2abd8881-a96a-4082-883e-0b7276d3cc90"
+authors = ["David Lee <davidtaolee@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+Debugger = "31a5f54b-26ea-5ae9-a837-f05ce5417438"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
