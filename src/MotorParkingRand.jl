@@ -1,16 +1,24 @@
 module MotorParkingRand
 
+export main
+
 using JSON
 using Debugger
 using XLSX
 using Random
 
-greet() = print("這是一個用亂數指派機車位給住戶的程式")
+greet() = print("這是一個用亂數指派機車位給住戶的程式\n")
+
+function julia_main()::Cint
+  main()
+  return 0
+end
 
 function main()
   # data = get_raw()
   # println(data)
   greet()
+  execute()
 end
 
 # GLOBALS
@@ -354,3 +362,4 @@ end
 
 
 end # module MotorParkingRan
+
